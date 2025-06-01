@@ -27,10 +27,11 @@ public class MockDataRepository {
         customers.add(new Customer("C002", "Bob", "Delhi", true));
         customers.add(new Customer("C003", "Charlie", "Mumbai", false));
 
-        // Add mock accounts
-        accounts.add(new Account("A001", "C001", 150000.0, "SAVINGS"));
-        accounts.add(new Account("A002", "C002", 200000.0, "CURRENT"));
-        accounts.add(new Account("A003", "C001", 30000.0, "LOAN"));
+
+        accounts.add(new Account("A001", "C001", 150000.0, "SAVINGS", true));
+        accounts.add(new Account("A002", "C002", 200000.0, "CURRENT", true));
+        accounts.add(new Account("A003", "C001", 30000.0, "LOAN", true));
+
 
         // Add mock transactions
         transactions.add(new Transaction("T001", "A001", 120000.0, LocalDateTime.now().minusDays(2)));
