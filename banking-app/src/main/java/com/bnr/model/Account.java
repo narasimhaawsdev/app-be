@@ -14,4 +14,5 @@ public class Account {
     private String customerId;
     private double balance;
     private String type; // SAVINGS, CURRENT, LOAN
+    private boolean closed;
 }
