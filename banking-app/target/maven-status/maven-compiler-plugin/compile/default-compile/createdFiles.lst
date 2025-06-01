@@ -1,0 +1,7 @@
+com\bnr\repository\MockDataRepository.class
+com\bnr\service\BankingService.class
+com\bnr\model\Account.class
+com\bnr\model\Transaction.class
+com\bnr\controller\BankingController.class
+com\bnr\model\Customer.class
+com\bnr\Application.class
