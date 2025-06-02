@@ -1,0 +1,11 @@
+<h2>Account Summary</h2>
+<input [(ngModel)]="accountId" placeholder="Enter Account ID" />
+<button (click)="fetchSummary()">Get Summary</button>
+
+<div *ngIf="summary">
+  <p>Account ID: {{ summary.id }}</p>
+  <p>Customer ID: {{ summary.customerId }}</p>
+  <p>Balance: {{ summary.balance }}</p>
+  <p>Type: {{ summary.type }}</p>
+  <p>Status: {{ summary.closed ? 'Closed' : 'Open' }}</p>
+</div>

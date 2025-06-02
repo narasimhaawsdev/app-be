@@ -1,0 +1,6 @@
+<h2>Account Fees</h2>
+<input [(ngModel)]="accountId" placeholder="Enter Account ID" />
+<button (click)="getFees()">Calculate Fees</button>
+<div *ngIf="fee !== null">
+  <p>Fee: {{ fee }}</p>
+</div>

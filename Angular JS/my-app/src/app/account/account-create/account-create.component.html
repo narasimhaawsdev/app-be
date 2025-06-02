@@ -1,0 +1,12 @@
+<h2>Create Account</h2>
+<form (ngSubmit)="create()">
+  <input [(ngModel)]="account.id" name="id" placeholder="Account ID" required />
+  <input [(ngModel)]="account.customerId" name="customerId" placeholder="Customer ID" required />
+  <input [(ngModel)]="account.balance" name="balance" placeholder="Balance" type="number" required />
+
+  <select [(ngModel)]="account.type" name="type" required>
+    <option *ngFor="let type of accountTypes" [value]="type">{{ type }}</option>
+  </select>
+
+  <button type="submit">Create</button>
+</form>
