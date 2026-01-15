@@ -18,7 +18,7 @@
         <junit-jupiter-params.version>5.3.2</junit-jupiter-params.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <google-guava.version>25.1-jre</google-guava.version>
-        <jackson-databind.version>2.9.9.1</jackson-databind.version>
+        <jackson-databind.version>2.12.7.1</jackson-databind.version>
         <liquibase-maven-plugin.version>4.2.2</liquibase-maven-plugin.version>
         <feign-core.version>10.3.0</feign-core.version>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
